@@ -43,3 +43,11 @@ void main()
 	}
 	// getch();
 }
+/*
+
+	int a,b
+
+	c = a+b
+	
+	printf(c)
+*/
