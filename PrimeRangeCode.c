@@ -21,7 +21,6 @@ int main()
 		flag = 1;
 		while(i<=num/2)
 		{
-			
 			if(num%i==0)
 				{
 					flag = 0 ;
@@ -29,7 +28,6 @@ int main()
 				}
 			i++;
 		}
-	 
 		if(flag == 1)
 		{
 			printf("%d \n",num);
