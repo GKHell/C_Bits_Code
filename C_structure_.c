@@ -10,7 +10,7 @@
 #define A 10 // definition section
 #define B 30 // definition section
 
- int i = 5; // global section
+ int i = 0; // global section
 
 void sum() //user-define section
 {
@@ -19,15 +19,12 @@ void sum() //user-define section
 void sub() //user-define section
 {
 	printf("line %d : %d - %d = %d\n",++i,A,B,A-B);
-}
-void main()
+};;;;;;;
+void main() // main function
 {
 	//clrscr();
-		sum();
-		sub();
-		sub();
-		sum();
-		sum();
+		sum();sub();sub();sum();
+		     sum();;;;;;;;;;;;
 		i = 199;
 		printf("value of i : %d\n",i);
 		// A = 300;
@@ -38,7 +35,8 @@ void main()
 			#define B 200
 		printf("A : %d\t B : %d\n",A,B);
 	//getch();
-}
+};;;;;;;;;;;;;;;;;;
+
 
 
 
