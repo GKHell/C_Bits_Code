@@ -1,9 +1,8 @@
-// int a = 10
+// int _a = 10
 #include<stdio.h>
 void main()
 {
-	const int a = 10;
-
-	a = 40;
-	printf("%d \n",a);
+	int _double123456789012345678901234567890 = 10;	
+	printf("Hello %d \n",_double123456789012345678901234567890);
+	printf("size of int : %d\n",sizeof(double));
 }
