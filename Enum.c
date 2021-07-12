@@ -2,7 +2,7 @@
 #include<stdio.h>
 void main()
 {
-	enum day{mon,tue,wed=20,thur,fri=99,sat,sun};
+	enum day{mon,tue,wed=52,thur,fri,sat=30,sun};
 	//clrscr();
 	
 	// mon = 5; // error bcz all are constants
