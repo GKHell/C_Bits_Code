@@ -28,6 +28,10 @@ int main()
 	 	printf("divanshu | 454 | python\n");
 	 	printf("vidit | 001 | html\n");
 
+	 	//textattr(4)
+	 	// cprintf("Hello ");
+	 	//textattr(3)
+	 	//cprintf("bye");
 		printf("---------------------------------\n");
 	 	printf("%-10s | %.6s | %-10s\n","Name","rollno","subject");
 		printf("---------------------------------\n");
