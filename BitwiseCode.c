@@ -15,8 +15,8 @@ int main()
 	&=> 0 0 1 1 => 3
 
 	*/
-	c = a & b;
-	printf("%d & %d = %d \n",a,b,c);
+	// c = a & b;
+	// printf("%d & %d = %d \n",a,b,c);
 
 	// bitwise Or(|)
 	/*
@@ -28,8 +28,8 @@ int main()
 	|=> 0 1 1 1 => 7
 
 	*/
-	c = a | b;
-	printf("%d | %d = %d \n",a,b,c);
+	// c = a | b;
+	// printf("%d | %d = %d \n",a,b,c);
 
 	// bitwise Ex-Or : if both are same then '0' else '1'
 	/*
@@ -40,10 +40,10 @@ int main()
 	------------
 	^=> 0 1 0 0 => 4
 	*/
-	c = a ^ b;
-	printf("%d ^ %d = %d \n",a,b,c);
+	// c = a ^ b;
+	// printf("%d ^ %d = %d \n",a,b,c);
 
-	a = -5;
+	// a = -5;
 	// bitwise negation :
 	/*
 		c = -(a+1)
@@ -51,8 +51,29 @@ int main()
 		  = -(-4)
 		  = 4
 	*/
-	c = ~a;
-	printf("~%d  = %d  \n",a,c);
+	// c = ~a;
+	// printf("~%d  = %d  \n",a,c);
 
+	// left shift 
+	/*
+		8 4 2 1
+	-------------
+	7=> 0000 0111
+
+	    0011 1xxx
+
+        128 64 32  16   8 4 2 1
+	    ------------------------------
+	    0   0   1   1   1 0 0 0 => 56
+	
+	!!!!!!!!!!!!!!!!!!!!!!!!!!
+		c = a*2^b
+		  = 7*2^3
+		  = 7*8
+		  = 56
+
+	*/
+	c = a<<b;
+	printf("%d << %d = %d\n",a,b,c);
 
 }
