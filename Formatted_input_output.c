@@ -9,7 +9,7 @@ int main()
 
 		FILE *fp;
 		printf("Enter expression : ");
-		scanf("%d%c%d",&a,&ch,&b);
+		scanf("%d%c%d",&a,&ch,&b); 
 
 		fp = fopen("History.txt","a");
 		switch(ch)
