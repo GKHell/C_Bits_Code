@@ -23,9 +23,7 @@ int main()
 	{
 		sum*=a[i];
 		printf("a [ %d ] = %d \t %d\n",i,a[i],sum);
-		
-
-		 
+	 
 	}
 	printf("total : %d\n",sum);
 }
